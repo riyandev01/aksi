@@ -14,4 +14,4 @@ jobs:
     steps:
       - name: Create dir
         run: |
-          curl "https://www.cloudflare.com/cdn-cgi/trace"
+          curl "https://www.cloudflare.com/cdn-cgi/trace" 
