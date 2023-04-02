@@ -1,0 +1,17 @@
+name: mkdir example
+
+on:
+  push:
+    branches: [ '**' ]
+  
+  workflow_dispatch:
+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Create dir
+        run: |
+          mkdir mydirname && ls
